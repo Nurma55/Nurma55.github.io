@@ -17,6 +17,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($destinataire, $sujet, $contenu);
     
     // Redirection après l'envoi du formulaire (facultatif)
-    header("Location: confirmation.html");
+    header("Location: dibotec5.html");
 }
 ?>
